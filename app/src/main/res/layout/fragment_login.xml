@@ -85,7 +85,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/daniButtonJr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -96,8 +96,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
-        <TextView
-            android:id="@+id/textView5"
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/daniButtonJr2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
